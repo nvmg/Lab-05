@@ -13,6 +13,7 @@ Teniendo en cuenta los parámetros del comando telnet:
 
 telnet HOST PORT
 
+![0](https://user-images.githubusercontent.com/79550161/156289001-a2560594-2800-4bb4-9820-929ff522605d.JPG)
 ![1](https://user-images.githubusercontent.com/79550161/156277528-e46dca35-f64c-481f-b2b9-5b1f13327915.JPG)
 
 
