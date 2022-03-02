@@ -13,6 +13,9 @@ Teniendo en cuenta los parámetros del comando telnet:
 
 telnet HOST PORT
 
+![1](https://user-images.githubusercontent.com/79550161/156277528-e46dca35-f64c-481f-b2b9-5b1f13327915.JPG)
+
+
 **3.** Antes de que el servidor cierre la conexión por falta de comunicación:
 * Revise la página 36 del RFC del protocolo HTTP, sobre cómo realizar una petición GET. Con esto, solicite al servidor el recurso ‘sssss/abc.html’, usando la versión 1.0 de HTTP.
 * Asegúrese de presionar ENTER dos veces después de ingresar el comando.
