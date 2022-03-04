@@ -23,14 +23,16 @@ telnet www.escuelaing.edu.co 80
 GET /sssss/abc.html HTTP/1.0
 Host: www.escuelaing.edu.co
 ```
+![2](https://user-images.githubusercontent.com/79550161/156670642-d04d1afc-d29d-4a6f-bfdf-2f54b493e0e3.JPG)
 
 * Revise el resultado obtenido. ¿Qué codigo de error sale?, revise el significado del mismo en la lista de códigos de estado HTTP.
 Sale el error
+Se encontró el error 301, el cual indica que el recurso solicitado se ha movido permanentemente. En la respuesta se proporciona la nueva URL.
 
 * ¿Qué otros códigos de error existen?, ¿En qué caso se manejarán?
-  - Los errores (300-309) son errores de redirección, los cuales indican que los datos han sido transferidos a otra dirección. (Se deberia intentar con una nueva dirección).
+  - Los errores (300-309) son errores de redirección, los cuales indican que los datos han sido transferidos a otra dirección. (Se debería intentar con una nueva dirección).
   - Los errores (400-409) son errores que se producen por parte del cliente, son errores con una sintaxis incorrecta o datos que no se encuentran en esa dirección.
-  - Los errores (500-509) son errores que de procuden por parte del servidor, como que se ha excedido el tiempo de espera o algun error interno.
+  - Los errores (500-509) son errores que se producen por parte del servidor, como que se ha excedido el tiempo de espera o algún error interno.
 ![error](https://user-images.githubusercontent.com/79550161/156484351-ab5d397f-d2ab-4a03-94c2-dd0b0a59bd87.png)
 
 
