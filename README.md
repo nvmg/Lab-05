@@ -40,8 +40,9 @@ Se encontró el error 301, el cual indica que el recurso solicitado se ha movido
 * Host: www.httpbin.org
 * Puerto: 80
 ```
-telnet www.httpbon.org 80
+telnet www.httpbin.org 80
 ```
+![3](https://user-images.githubusercontent.com/79550161/156677313-62d14d10-d776-4530-98b2-2621853ce736.JPG)
 
 * Versión HTTP: 1.1
 Ahora, solicite (GET) el recurso /html. ¿Qué se obtiene como resultado?
@@ -49,8 +50,13 @@ Ahora, solicite (GET) el recurso /html. ¿Qué se obtiene como resultado?
 GET /html HTTP/1.1
 Host: www.httpbin.org
 ```
+![4](https://user-images.githubusercontent.com/79550161/156677340-60d99423-7d16-4f74-ae2a-b4691f338a2e.JPG)
+![image](https://user-images.githubusercontent.com/79550161/156684513-1dc212b2-5f10-43e3-b0d0-74330efb5556.png)
+Se obtuvo un mensaje de éxito (200) y un texto en formato de html.
 
-**5.** Seleccione el contenido HTML de la respuesta y copielo al cortapapeles CTRL-SHIFT-C. Ejecute el comando wc (word count) para contar palabras con la opción -c para contar el número de caracteres:
+**5.** Seleccione el contenido HTML de la respuesta y copielo al cortapapeles CTRL-SHIFT-C. 
+Ejecute el comando wc (word count) para contar palabras con la opción -c para contar el número de caracteres:
+
 
 - ¿Cuál es la diferencia entre los verbos GET y POST? 
 
