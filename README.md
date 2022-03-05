@@ -131,3 +131,10 @@ http://localhost:8080/helloServlet?name=%20Nicole%20y%20Carolina
 ![16](https://user-images.githubusercontent.com/79550161/156873805-5d40c756-91bd-45c6-9afe-a1c228da20e8.JPG)
 
 ### PARTE III.
+
+**19.** Revise este ejemplo de validación de formularios con javascript y agruéguelo a su formulario, de manera que -al momento de hacer ‘submit’- desde el browser se valide que el valor ingresado es un valor numérico:
+
+![17](https://user-images.githubusercontent.com/79550161/156874612-3b88315c-62aa-4e05-9ecf-23661f705aa5.JPG)
+
+**20.** Use el método GET . Qué diferencia observa?
+
