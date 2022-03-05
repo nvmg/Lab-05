@@ -66,18 +66,27 @@ La diferencia se encuentra en la forma en la que envían los datos. Mientras que
 
 - ¿Qué otros tipos de peticiones existen?
 
- * HEAD: Es similar a la petición GET, pero cuando pide una respuesta solo se retorna el encabezado, permitiendo recuperar los metadatos de la respuesta sin tener que transpotar todo el contenido. 
- * PUT: Es usada para almacenar el cuerpo en una ubicación dada por la URL, esta dirigido a la actualización de contenidos, pero tambien se puede usar en la creación de los mismos.
- * DELATE: Es usado para solitarle al servidor la eliminación de un recurso en la ubicación dada por la URL.
+* HEAD: Es similar a la petición GET, pero cuando pide una respuesta solo se retorna el encabezado, permitiendo recuperar los metadatos de la respuesta sin tener que transportar todo el contenido. 
+ * PUT: Es usada para almacenar el cuerpo en una ubicación dada por la URL, está dirigido a la actualización de contenidos, pero también se puede usar en la creación de estos.
+ * DELATE: Es usado para solicitarle al servidor la eliminación de un recurso en la ubicación dada por la URL.
  * CONNECT: Se usa para establecer una conexión de red con un servidor web usando HTTP, también es usada para saber si se tiene acceso a un host.
  * OPTIONS: Retorna los métodos HTTP que el servidor soporta para una URL en específico.
- * TRACE: 
+ * TRACE: Se usa para solicitarle al servidor que introduzca en la respuesta todos los datos que reciba en el mensaje de petición.
 
-**6.** En la practica no se utiliza telnet para hacer peticiones a sitios web sino el comando curl con ayuda de la linea de comandos:
-
+**6.** Comando curl:
+```
 curl www.httpbin.org
-Utilice ahora el parámetro -v y con el parámetro -i:
-
+```
+![7](https://user-images.githubusercontent.com/79550161/156866050-9b6dadf1-9c2f-438e-94ec-1c8d01593932.JPG)
+```
 curl -v www.httpbin.org
+```
+![8](https://user-images.githubusercontent.com/79550161/156866146-9c506c23-f66d-4a96-b450-8af9e6bb79c2.JPG)
+```
 curl -i www.httpbin.org
+```
+![9](https://user-images.githubusercontent.com/79550161/156866147-7d9be337-2daa-4af2-9020-a9cf3e5cd52c.JPG)
+
 ¿Cuáles son las diferencias con los diferentes parámetros?
+
+El comando curl -v nos ayuda a obtener el encabezado de la solicitud y el número de la respuesta obtenida, permite visualizar la petición GET y el Host realizado para obtener el contenido. El comando curl -i incluye el encabezado HTTP en la salida, contiene cosas como el nombre del servidor, la fecha del documento, la versión HTTP, cookies, entre otros.
