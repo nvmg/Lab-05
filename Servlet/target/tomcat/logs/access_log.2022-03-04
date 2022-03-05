@@ -1,0 +1,2 @@
+0:0:0:0:0:0:0:1 - - [04/Mar/2022:23:56:37 -0500] "GET /helloServiet HTTP/1.1" 404 975 http-bio-8080-exec-1 33
+0:0:0:0:0:0:0:1 - - [04/Mar/2022:23:56:37 -0500] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8080-exec-3 2
