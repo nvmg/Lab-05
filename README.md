@@ -26,7 +26,7 @@ Host: www.escuelaing.edu.co
 ![2](https://user-images.githubusercontent.com/79550161/156670642-d04d1afc-d29d-4a6f-bfdf-2f54b493e0e3.JPG)
 
 * Revise el resultado obtenido. ¿Qué codigo de error sale?, revise el significado del mismo en la lista de códigos de estado HTTP.
-Sale el error
+
 Se encontró el error 301, el cual indica que el recurso solicitado se ha movido permanentemente. En la respuesta se proporciona la nueva URL.
 
 * ¿Qué otros códigos de error existen?, ¿En qué caso se manejarán?
@@ -61,8 +61,17 @@ Ejecute el comando wc (word count) para contar palabras con la opción -c para c
 
 - ¿Cuál es la diferencia entre los verbos GET y POST? 
 
+Ambos protocolos envían al servidor peticiones y reciben una respuesta a esta solicitud.
+La diferencia se encuentra en la forma en la que envían los datos. Mientras que GET envía los datos usando una URL y permite obtener información del servidor, es decir, trae los datos que se encuentran en el servidor, ya sea en una base de datos o un archivo al cliente; POST los envía de forma oculta, es decir, envía información desde el cliente para que sea procesada y actualice o agregue información en el servidor.
+
 - ¿Qué otros tipos de peticiones existen?
 
+ * HEAD: Es similar a la petición GET, pero cuando pide una respuesta solo se retorna el encabezado, permitiendo recuperar los metadatos de la respuesta sin tener que transpotar todo el contenido. 
+ * PUT: Es usada para almacenar el cuerpo en una ubicación dada por la URL, esta dirigido a la actualización de contenidos, pero tambien se puede usar en la creación de los mismos.
+ * DELATE: Es usado para solitarle al servidor la eliminación de un recurso en la ubicación dada por la URL.
+ * CONNECT: Se usa para establecer una conexión de red con un servidor web usando HTTP, también es usada para saber si se tiene acceso a un host.
+ * OPTIONS: Retorna los métodos HTTP que el servidor soporta para una URL en específico.
+ * TRACE: 
 
 **6.** En la practica no se utiliza telnet para hacer peticiones a sitios web sino el comando curl con ayuda de la linea de comandos:
 
