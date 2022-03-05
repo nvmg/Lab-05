@@ -108,3 +108,7 @@ La clase SampleServlet permite recibir una petición de usuario y dar una respue
 http://localhost:8080/helloServlet?name=%20Nicole%20y%20Carolina
 
 ![11](https://user-images.githubusercontent.com/79550161/156871813-593c7a32-d879-4b09-acc9-1c93cc512fda.JPG)
+
+**8.** Intente cambiando diferentes números al final del path de la url.
+
+![12](https://user-images.githubusercontent.com/79550161/156872468-12026a97-e73f-4ebc-91c3-24d8bb12f298.JPG)
