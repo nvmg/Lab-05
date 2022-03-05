@@ -4,8 +4,6 @@
 
 ### PARTE I. - JUGANDO A SER UN CLIENTE HTTP
 
-**1.** Abra una terminal Linux o consola de comandos Windows.
-
 **2.** Realice una conexión síncrona TCP/IP a través de Telnet/Netcat al siguiente servidor:
 * Host: www.escuelaing.edu.co
 * Puerto: 80
@@ -90,3 +88,16 @@ curl -i www.httpbin.org
 ¿Cuáles son las diferencias con los diferentes parámetros?
 
 El comando curl -v nos ayuda a obtener el encabezado de la solicitud y el número de la respuesta obtenida, permite visualizar la petición GET y el Host realizado para obtener el contenido. El comando curl -i incluye el encabezado HTTP en la salida, contiene cosas como el nombre del servidor, la fecha del documento, la versión HTTP, cookies, entre otros.
+
+### PARTE II. - HACIENDO UNA APLICACIÓN WEB DINÁMICA A BAJO NIVEL.
+
+I. Cree un proyecto maven nuevo usando el arquetipo de aplicación Web estándar maven-archetype-webapp:
+```
+mvn archetype:generate -DarchetypeGroupId=org.apache.maven.archetypes -DarchetypeArtifactId=maven-archetype-webapp
+```
+**1.** Revise la clase SampleServlet, e identifique qué hace:
+
+La clase SampleServlet permite recibir una petición de usuario y dar una respuesta a este.
+
+**5.** Abra un navegador, y en la barra de direcciones ponga la URL con la cual se le enviarán peticiones al ‘SampleServlet’:
+
