@@ -57,6 +57,7 @@ Se obtuvo un mensaje de éxito (200) y un texto en formato de html.
 **5.** Seleccione el contenido HTML de la respuesta y copielo al cortapapeles CTRL-SHIFT-C. 
 Ejecute el comando wc (word count) para contar palabras con la opción -c para contar el número de caracteres:
 
+![6](https://user-images.githubusercontent.com/79550161/156864979-f62b6423-c8af-4663-99b2-74f2cb9353d3.JPG)
 
 - ¿Cuál es la diferencia entre los verbos GET y POST? 
 
