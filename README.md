@@ -138,3 +138,7 @@ http://localhost:8080/helloServlet?name=%20Nicole%20y%20Carolina
 
 **20.** Use el método GET . Qué diferencia observa?
 
+No se muestra un cambio significativo ya que se realizo la implementación de los metodos de la misma manera, pero la manera de enviar la información es diferente.
+
+**21.** ¿Qué se está viendo?
+
