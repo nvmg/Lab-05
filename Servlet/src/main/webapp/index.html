@@ -3,23 +3,18 @@
 <head>
     <title>Formulario</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <script>
-    function validateForm(){
-        var x = document.getElementById("id).value;
-        if (isNaN(x)){
-            alert("El valor ingresado no es númerico: " + x);
-            return false;
-        }
-        return true;
-    }
-    </script>
 </head>
 <body>
 <h1>Hello World!</h1>
-    <form method="get" action="SimilarServlet" onsubmit="return validateForm()">
-        <label for="id">ID: </label>
-        <input type="text" id="id" name="id" required><br><br>
-        <input type="submit" value="Submit">
+    <form method="get" action="/similarServlet" >
+        <ul>
+            <li>
+                <label for="id">Ingrese el ID: </label>
+                <input type="text" placeholder="Espacio para el id" id="id" required><br><br>
+            </li>
+            <button type="submit" >Enviar</button>
+        </ul>
     </form>
+<script src="/validation.js"></script>
 </body>
 </html>
