@@ -13,7 +13,7 @@ public class Todo {
 
     }
     /**
-     * Retorma el id del usuario.
+     * Retorna el id del usuario.
      * @return userId - Entero con el id del usuario.
      */
     public int getUserId() {
@@ -21,7 +21,7 @@ public class Todo {
     }
 
     /**
-     * Retorma el id.
+     * Retorna elid.
      * @return id - Entero con el id.
      */
     public int getId() {
@@ -45,6 +45,12 @@ public class Todo {
     }
 
     /**
+     * Actualiza el valor del id del usuario.
+     * @param userId - Nuevo id del usuario.
+     */
+    public void setUserId(int userId){ this.userId = userId;}
+
+    /**
      * Actualiza el valor del titulo.
      * @param title - Nuevo titulo.
      */
@@ -55,7 +61,7 @@ public class Todo {
 
     /**
      * Actualiza el valor de completado.
-     * @param completed -  Nuevo valor para completado.
+     * @param completed - Nuevo valor para completado.
      */
 
     public void setCompleted(boolean completed) {
@@ -63,8 +69,8 @@ public class Todo {
     }
 
     /**
-     * Actualzia el valor del id.
-     * @param id - Nuevo valor para id.
+     * Actualiza el valor del id.
+     * @param id - Nuevo valor para el id.
      */
     public void setId(int id) {
         this.id = id;
