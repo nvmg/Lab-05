@@ -112,3 +112,21 @@ http://localhost:8080/helloServlet?name=%20Nicole%20y%20Carolina
 **8.** Intente cambiando diferentes números al final del path de la url.
 
 ![12](https://user-images.githubusercontent.com/79550161/156872468-12026a97-e73f-4ebc-91c3-24d8bb12f298.JPG)
+
+**15.** Intente hacer diferentes consultas desde un navegador Web para probar las diferentes funcionalidades:
+* Sin especificar algún parámetro:
+
+![13](https://user-images.githubusercontent.com/79550161/156873798-357c1db0-ded4-4430-9f31-55db23fc5ff4.JPG)
+
+* Con un carácter inválido:
+
+![14](https://user-images.githubusercontent.com/79550161/156873801-fcdfd7fa-aced-4653-914d-bbfb4c6b0a61.JPG)
+
+* Con una consulta no existente:
+*
+![15](https://user-images.githubusercontent.com/79550161/156873804-17a2e24f-3c90-4519-9961-b0f5cf92a78e.JPG)
+
+* Consulta correcta:
+
+![16](https://user-images.githubusercontent.com/79550161/156873805-5d40c756-91bd-45c6-9afe-a1c228da20e8.JPG)
+
