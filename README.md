@@ -102,3 +102,9 @@ La clase SampleServlet permite recibir una petición de usuario y dar una respue
 **5.** Abra un navegador, y en la barra de direcciones ponga la URL con la cual se le enviarán peticiones al ‘SampleServlet’:
 
 ![10](https://user-images.githubusercontent.com/79550161/156869835-a572a66b-4d3f-4640-bc12-49c8ebe900d0.JPG)
+
+**6.** Ingrese la misma URL, pero ahora agregando un parámetro GET:
+
+http://localhost:8080/helloServlet?name=%20Nicole%20y%20Carolina
+
+![11](https://user-images.githubusercontent.com/79550161/156871813-593c7a32-d879-4b09-acc9-1c93cc512fda.JPG)
