@@ -163,7 +163,7 @@ No se muestra un cambio significativo ya que se realizo la implementación de lo
     
     ok
 
-**5.** Cree una página XHTML, de nombre calculadora.xhtml (debe quedar en la ruta src/main/webapp). Revise en la página 13 del manual de PrimeFaces, qué espacios de nombres XML requiere una página de PrimeFaces y cuál es la estructura básica de la misma.
+**5.** Cree una página XHTML, de nombre calculadora.xhtml (debe quedar en la ruta src/main/webapp). Revise en la página 13 del manual de PrimeFaces, qué espacios de nombres XML        requiere una página de PrimeFaces y cuál es la estructura básica de la misma.
 
   ok
   
@@ -171,6 +171,12 @@ No se muestra un cambio significativo ya que se realizo la implementación de lo
   
   ok
   
-**7.** 
+**7.** Agregar al formulario
 
-
+  ok
+  
+**8.** Agregar botones
+   
+   ok
+   
+**9.** Pruebas
