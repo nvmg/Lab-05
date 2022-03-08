@@ -145,6 +145,7 @@ No se muestra un cambio significativo ya que se realizo la implementación de lo
 ### PARTE IV. - FRAMEWORKS WEB MVC – JAVA SERVER FACES / PRIME FACES
 
 **1.** Al proyecto Maven, debe agregarle las dependencias mas recientes de javax.javaee-api, com.sun.faces.jsf-api, com.sun.faces.jsf-impl, javax.servlet.jstl y Primefaces (en el archivo pom.xml).
+  
   ok
 
 **2.** Para que configure automáticamente el descriptor de despliegue de la aplicación (archivo web.xml), de manera que el framework JSF se active al inicio de la aplicación, en el archivo web.xml agregue la siguiente configuración:
@@ -179,4 +180,6 @@ No se muestra un cambio significativo ya que se realizo la implementación de lo
    
    ok
    
-**9.** Pruebas
+**9.** Para verificar el funcionamiento de la aplicación, agregue el plugin tomcat-runner dentro de los plugins de la fase de construcción (build). Tenga en cuenta que en la          configuración del plugin se indica bajo que ruta quedará la aplicación:
+
+![image](https://user-images.githubusercontent.com/98135902/157152948-266f373d-d3b1-4ada-baab-0551f14526d9.png)
