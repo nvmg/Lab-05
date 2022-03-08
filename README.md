@@ -142,3 +142,35 @@ No se muestra un cambio significativo ya que se realizo la implementación de lo
 
 **21.** ¿Qué se está viendo?
 
+### PARTE IV. - FRAMEWORKS WEB MVC – JAVA SERVER FACES / PRIME FACES
+
+**1.** Al proyecto Maven, debe agregarle las dependencias mas recientes de javax.javaee-api, com.sun.faces.jsf-api, com.sun.faces.jsf-impl, javax.servlet.jstl y Primefaces (en el archivo pom.xml).
+  ok
+
+**2.** Para que configure automáticamente el descriptor de despliegue de la aplicación (archivo web.xml), de manera que el framework JSF se active al inicio de la aplicación, en el archivo web.xml agregue la siguiente configuración:
+
+  ok
+  
+**3.** Revise cada una de las configuraciones agregadas anteriormente para saber qué hacen y por qué se necesitan. Elimine las que no se necesiten.
+
+  * Servlets: generan páginas web de forma dinámica a partir de los parámetros de la petición que envíe el navegador web. Y a menudo se ejecutan cuando el usuario hace clic en     un enlace, envía un formulario o realiza otro tipo de acción en un sitio web.
+
+**4.** Ahora, va a crear un Backing-Bean de sesión, el cual, para cada usuario, mantendrá de lado del servidor las siguientes propiedades:
+
+    El conjunto de datos ingresados por el usuario.
+    Los resultados de las operaciones.
+    La cantidad de números ingresados por el usuario.
+    
+    ok
+
+**5.** Cree una página XHTML, de nombre calculadora.xhtml (debe quedar en la ruta src/main/webapp). Revise en la página 13 del manual de PrimeFaces, qué espacios de nombres XML requiere una página de PrimeFaces y cuál es la estructura básica de la misma.
+
+  ok
+  
+**6.** Con base en lo anterior, agregue un formulario con identificador calculadora_form con el siguiente contenido básico:
+  
+  ok
+  
+**7.** 
+
+
